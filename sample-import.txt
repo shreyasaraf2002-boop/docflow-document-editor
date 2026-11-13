@@ -1,4 +1,0 @@
-DocFlow Demo
-
-This file was imported into the document editor.
-Try editing the text and adding formatting.
