@@ -2,7 +2,7 @@
 
 **Source code:** https://github.com/shreyasaraf2002-boop/docflow-document-editor
 
-**Live application:** [Render URL — fill after deploy, then open `/health`]
+**Live application:** https://docflow-0eo0.onrender.com (also check https://docflow-0eo0.onrender.com/health)
 
 **Walkthrough video (3–5 minutes):** [Loom, unlisted YouTube, or Drive video URL — record from the live site using `WALKTHROUGH_SCRIPT.md`]
 
@@ -29,7 +29,7 @@ Working locally and verified in the browser:
 Incomplete:
 
 - No recorded walkthrough video yet.
-- No public URL until Render deploy finishes.
+- Public URL is live on Render’s free plan. SQLite data can disappear when the instance sleeps or redeploys.
 - No real authentication. Anyone who can set `X-User-Id` can act as Alex or Sam.
 - Editor HTML is not sanitized on the server.
 - Shared users can edit. There is no read-only role.
@@ -43,7 +43,7 @@ Incomplete:
 ```markdown
 # DocFlow submission
 - Source and documentation: [GitHub repository](https://github.com/shreyasaraf2002-boop/docflow-document-editor)
-- Live app: [DocFlow](REPLACE_WITH_REAL_URL)
+- Live app: [DocFlow](https://docflow-0eo0.onrender.com)
 - Walkthrough video: [3–5 minute demo](REPLACE_WITH_REAL_VIDEO_URL)
 - Demo accounts: select Alex or Sam using the user switcher; no password.
 - Run locally: `pip install -r requirements.txt` then `python app.py`; open http://localhost:5000.
